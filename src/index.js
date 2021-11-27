@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Bulb from "./Bulb";
-
+import Things from "./Things";
+import LoginForm from "./Loginform";
 import "./styles.css";
 
 // function Bulbs() {
@@ -13,6 +14,8 @@ function App() {
   return (
     <div className="App">
       <Bulb />
+      <Things />
+      <LoginForm />
     </div>
   );
 }
